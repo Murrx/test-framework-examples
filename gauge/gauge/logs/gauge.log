@@ -1,0 +1,199 @@
+18:42:58.342 Checking updates...
+18:42:59.303 Unable to start plugin html-report. Plugin html-report is not installed. To install, run `gauge --install html-report`.
+18:43:06.621 # Getting Started with Gauge
+18:43:06.626 ## Get Started
+18:43:06.631 * Open the Gauge homepage
+
+18:43:08.587 * Go to Gauge Get Started Page
+18:43:09.830 * Ensure installation instructions are available
+18:43:11.077 Specifications:	1 executed	1 passed	0 failed	0 skipped
+18:43:11.077 Scenarios:	1 executed	1 passed	0 failed	0 skipped
+18:43:11.077 
+Total time taken: 11.575s
+18:54:18.154 Checking updates...
+18:54:18.471 [ValidationError] C:\Users\altenaro\git\scriptie-examples\gauge\gauge\specs\example.spec:11 Step implementation not found => 'Go to Login Page'
+18:54:18.471 Unable to start plugin html-report. Plugin html-report is not installed. To install, run `gauge --install html-report`.
+18:54:24.914 Specifications:	0 executed	0 passed	0 failed	1 skipped
+18:54:24.914 Scenarios:	0 executed	0 passed	0 failed	1 skipped
+18:54:24.914 
+Total time taken: 6.241s
+19:07:32.720 Checking updates...
+19:07:33.368 Unable to start plugin html-report. Plugin html-report is not installed. To install, run `gauge --install html-report`.
+19:07:38.330 # Getting Started with Gauge
+19:07:38.332 ## Get Started
+19:07:38.334 * Open the Gauge homepage
+
+19:07:40.045 * Go to Login Page
+19:07:40.970 Failed Step: Go to Login Page
+19:07:40.970 Error Message: java.lang.AssertionError
+19:07:40.970 Specification: specs\example.spec:11
+19:07:40.970 Stacktrace: 
+org.junit.Assert.fail(Assert.java:86)
+org.junit.Assert.assertTrue(Assert.java:41)
+org.junit.Assert.assertTrue(Assert.java:52)
+StepImplementation.goToLoginPage(StepImplementation.java:35)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:498)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:32)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:129)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:83)
+com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:64)
+com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:40)
+com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:29)
+com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:34)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:86)
+com.thoughtworks.gauge.GaugeRuntime.main(GaugeRuntime.java:37)
+19:07:42.177 Specifications:	1 executed	0 passed	1 failed	0 skipped
+19:07:42.177 Scenarios:	1 executed	0 passed	1 failed	0 skipped
+19:07:42.177 
+Total time taken: 8.509s
+19:08:46.072 Checking updates...
+19:08:47.136 Unable to start plugin html-report. Plugin html-report is not installed. To install, run `gauge --install html-report`.
+19:08:51.026 # Getting Started with Gauge
+19:08:51.027 ## Get Started
+19:08:51.028 * Go to Login Page
+
+19:08:52.024 Failed Step: Go to Login Page
+19:08:52.024 Error Message: java.lang.AssertionError
+19:08:52.024 Specification: specs\example.spec:7
+19:08:52.024 Stacktrace: 
+org.junit.Assert.fail(Assert.java:86)
+org.junit.Assert.assertTrue(Assert.java:41)
+org.junit.Assert.assertTrue(Assert.java:52)
+StepImplementation.goToLoginPage(StepImplementation.java:35)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:498)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:32)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:129)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:83)
+com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:64)
+com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:40)
+com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:29)
+com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:34)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:86)
+com.thoughtworks.gauge.GaugeRuntime.main(GaugeRuntime.java:37)
+19:08:53.244 Specifications:	1 executed	0 passed	1 failed	0 skipped
+19:08:53.244 Scenarios:	1 executed	0 passed	1 failed	0 skipped
+19:08:53.244 
+Total time taken: 5.808s
+19:10:59.769 Checking updates...
+19:11:00.807 Unable to start plugin html-report. Plugin html-report is not installed. To install, run `gauge --install html-report`.
+19:11:05.782 # Getting Started with Gauge
+19:11:05.784 ## Get Started
+19:11:05.785 * Go to Login Page
+
+19:11:06.762 Failed Step: Go to Login Page
+19:11:06.762 Error Message: java.lang.AssertionError
+19:11:06.762 Specification: specs\example.spec:7
+19:11:06.762 Stacktrace: 
+org.junit.Assert.fail(Assert.java:86)
+org.junit.Assert.assertTrue(Assert.java:41)
+org.junit.Assert.assertTrue(Assert.java:52)
+StepImplementation.goToLoginPage(StepImplementation.java:35)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:498)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:32)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:129)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:83)
+com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:64)
+com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:40)
+com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:29)
+com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:34)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:86)
+com.thoughtworks.gauge.GaugeRuntime.main(GaugeRuntime.java:37)
+19:11:07.964 Specifications:	1 executed	0 passed	1 failed	0 skipped
+19:11:07.964 Scenarios:	1 executed	0 passed	1 failed	0 skipped
+19:11:07.964 
+Total time taken: 6.857s
+19:12:54.958 Checking updates...
+19:12:55.507 Unable to start plugin html-report. Plugin html-report is not installed. To install, run `gauge --install html-report`.
+19:13:00.443 # Getting Started with Gauge
+19:13:00.444 ## Get Started
+19:13:00.445 * Go to Login Page
+
+19:13:01.425 Failed Step: Go to Login Page
+19:13:01.425 Error Message: java.lang.AssertionError
+19:13:01.425 Specification: specs\example.spec:7
+19:13:01.425 Stacktrace: 
+org.junit.Assert.fail(Assert.java:86)
+org.junit.Assert.assertTrue(Assert.java:41)
+org.junit.Assert.assertTrue(Assert.java:52)
+StepImplementation.goToLoginPage(StepImplementation.java:35)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:498)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:32)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:129)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:83)
+com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:64)
+com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:40)
+com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:29)
+com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:34)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:86)
+com.thoughtworks.gauge.GaugeRuntime.main(GaugeRuntime.java:37)
+19:13:02.688 Specifications:	1 executed	0 passed	1 failed	0 skipped
+19:13:02.688 Scenarios:	1 executed	0 passed	1 failed	0 skipped
+19:13:02.688 
+Total time taken: 6.88s
+19:14:20.902 Checking updates...
+19:14:21.983 Unable to start plugin html-report. Plugin html-report is not installed. To install, run `gauge --install html-report`.
+19:14:26.901 # Getting Started with Gauge
+19:14:26.903 ## Get Started
+19:14:26.904 * Go to Login Page
+
+19:14:27.360 * Ensure installation instructions are available
+19:14:27.700 Failed Step: Ensure installation instructions are available
+19:14:27.700 Error Message: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//p[@class='instruction']"}
+  (Session info: chrome=56.0.2924.87)
+  (Driver info: chromedriver=2.28.455520 (cc17746adff54984afff480136733114c6b3704b),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 47 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'LNBL041168', ip: '169.254.23.97', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\Users\altenaro\AppData\Local\Temp\scoped_dir3156_19711}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=56.0.2924.87, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 99259516f4f61b486c9c195ae022fbfc
+*** Element info: {Using=xpath, value=//p[@class='instruction']}
+19:14:27.700 Specification: specs\example.spec:11
+19:14:27.700 Stacktrace: 
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635)
+org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:473)
+org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
+StepImplementation.ensureInstallationInstructionsAreAvailable(StepImplementation.java:20)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:498)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:32)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:129)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:83)
+com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:64)
+com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:40)
+com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:29)
+com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:34)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:86)
+com.thoughtworks.gauge.GaugeRuntime.main(GaugeRuntime.java:37)
+19:14:28.801 Specifications:	1 executed	0 passed	1 failed	0 skipped
+19:14:28.801 Scenarios:	1 executed	0 passed	1 failed	0 skipped
+19:14:28.801 
+Total time taken: 6.617s

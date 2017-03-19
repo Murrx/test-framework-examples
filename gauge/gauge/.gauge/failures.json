@@ -1,0 +1,8 @@
+{
+	"Flags": {
+		"-dir": "C:\\Users\\altenaro\\git\\scriptie-examples\\gauge\\gauge"
+	},
+	"FailedItems": [
+		"specs\\example.spec:9"
+	]
+}
